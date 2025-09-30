@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@plugin "daisyui"{
+  themes:["light","dark"]
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

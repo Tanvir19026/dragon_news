@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  /* Colors */
+  --color-bg-loginBtn: #403F3F;
+  --color-latest-btn: #D72050;
+  --color-bg-nationalBtn: #E7E7E7;
+  --color-bg-primary: #F3F3F3;
+  --color-left-sectionFont: #9F9F9F;
+  --color-font-heading: #403F3F;
+  --color-font-primarytext: #706F6F;
+
+  /* Gradient */
+  --gradient-font-linearRed: linear-gradient(90deg, #FF8C47, #F75B5F);
+  /* Fonts */
+  --font-heading: 'Poppins', sans-serif;
+  --font-body: 'Inter', sans-serif;
+
+  /* Spacing */
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+}
+*{
+  font-family: 'poppins',sans-serif;
+}
+
+.primarytext{
+  color:var(--color-font-primarytext);
+  font-size: 18px;
+}
+.primarytext:hover{
+  color:var(--color-red-400);
+}
+.left-sectionFont{
+  color:var(--color-left-sectionFont);
+  font-size: 16px;
+}
+
+
+.login-btn{
+    background-color:var(--color-bg-loginBtn);
+    color:white;
+    border: none;
+    width: 140px;
+    height: 44px;
+    font-family: 'poppins';
+    font-style: semibold;
+    font-size: 20px;   
+    transition: all 0.3s ease;
+}
+
+.login-btn:hover{
+      background-color: var(--color-red-400);  /* switch to orange */
+  transform: translateY(-2px);            /* slight lift */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.latest-btn{
+    background-color: var(--color-latest-btn);
+    color:white;
+    border: none;
+    width: 140px;
+    height: 44px;
+    font-family: 'poppins';
+    font-style: semibold;
+    font-size: 20px;   
+    transition: all 0.3s ease;
+}
+
+.latest-btn:hover{
+       background-color: var(--color-yellow-400);  /* switch to orange */
+  transform: translateY(-2px);            /* slight lift */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+
+.readbtn {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 1rem; /* ~ text-2xl */
+  background: var(--gradient-font-linearRed);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; /* Works in Chrome, Safari, Edge */
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.readbtn:hover {
+  opacity: 0.8;
+}
+.category-link {
+  color:var(--color-font-primarytext);
+  display: block;
+  padding: 8px 12px;
+  font-size: 16px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  border-radius: 6px;
+   background: #ffff;
+   width: 50%;
+}
+
+.category-link:hover {
+  background: var(--color-bg-primary);
+  width: 50%;
+}
+.social-btn {
+  background: red
+}
+.category-link.active {
+ /* same as your gray */
+  font-weight: 700;
+  background: var(--color-bg-primary);
+  border:none;
+  width: 50%;
+ 
+}
