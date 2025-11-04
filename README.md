@@ -1,13 +1,21 @@
-# React + Vite
+Dragon News is a **front‑end web application** designed to deliver up‑to‑date news content across categories, with user authentication for personalized access. The app is optimized for responsiveness and built using modern tools and workflows.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## Features  
+- Dynamic categories and article listings  
+- Detailed article pages for in‑depth reading  
+- User authentication with Firebase (login/signup)  
+- Responsive layout: works well on desktop & mobile  
+- Clean UI with intuitive navigation  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## Technologies Used  
+- **Frontend**: React.js  
+- **Styling & Layout**: CSS / Tailwind CSS (or Bootstrap, if used)  
+- **Authentication / Hosting**: Firebase (Authentication, Hosting)  
+- **API Integration**: (If using a news API e.g., Programming Hero News API)  
+- **Tooling**: Vite / Create‑React‑App (depending on setup), Git & GitHub  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# dragon_news
+---
